@@ -109,3 +109,95 @@ a {
   object-fit: cover;
   display: block;
 }
+
+/* task-3 */
+#name-input {
+  display: block;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: transparent;
+  background: transparent;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+#name-input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.title,
+.title > span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* task-4 */
+.login-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  min-height: 256px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #fff;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.form-input {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: transparent;
+  background: transparent;
+  transition: border-color 250ms ease;
+}
+
+.form-input:hover {
+  border-color: #000000;
+}
+.form-input::placeholder {
+  color: #2e2f42;
+}
+
+.form-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background-color: #4e75ff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+.form-button:hover {
+  background-color: #6c8cff;
+}
